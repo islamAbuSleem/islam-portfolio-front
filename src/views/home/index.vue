@@ -11,7 +11,7 @@ const today = ref(new Date())
             <h3 class="heading text-primary">
                 About me
             </h3>
-            <p class="text-dark mt-5">
+            <p class="text-dark mt-5 text-subtitle-1">
 
                 I am a senior front-end developer with {{ today.getFullYear() - 2016 }} years of experience building
                 responsive web applications using
@@ -24,6 +24,12 @@ const today = ref(new Date())
                 provide an exceptional user experience.
 
             </p>
+        </div>
+        <div class="about mx-7 mt-8">
+            <h3 class="heading text-primary">
+                Latest Projects
+            </h3>
+            <p class="text-center font-weight-bold mt-15">list of projects . . .</p>
         </div>
     </v-container>
 </template>
