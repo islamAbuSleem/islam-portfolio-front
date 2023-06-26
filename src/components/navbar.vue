@@ -25,8 +25,8 @@ const rail = ref(true)
         <v-app-bar-nav-icon @click="rail = !rail"></v-app-bar-nav-icon>
       </template>
       <v-toolbar-title class="grey--text">
-        <span class="font-weight-light text-capitalize">Islam</span>
-        <span class="text-capitalize">Abusleem</span>
+        <span class="font-weight-thin text-capitalize text-secondary">Islam</span>
+        <span class="text-capitalize text-secondary">Abusleem</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon>

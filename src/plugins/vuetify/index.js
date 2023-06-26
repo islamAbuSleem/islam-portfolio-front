@@ -8,6 +8,8 @@ const myCustomLightTheme = {
     dark: false,
     colors: {
         primary: '#914FF6',
+        secondary: '#9e9e9e',
+        dark: '#767676',
     },
 }
 const vuetify = createVuetify({
